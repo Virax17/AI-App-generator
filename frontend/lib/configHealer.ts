@@ -94,7 +94,6 @@ export function healConfig(raw: unknown): HealResult {
       type = "text";
       warnings.push(`Field "${name}" was missing a type – defaulted to "text".`);
     } else if (!ALLOWED_TYPES.has(type)) {
-      unknownTypeCount++;
       warnings.push(`Field "${name}" has an unknown type "${type}" – will render as unsupported.`);
     }
 
