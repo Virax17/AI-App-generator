@@ -2,7 +2,15 @@
 
 AppForge is a high-performance, schema-driven application engine that transforms JSON configurations into fully functional, production-ready web applications instantly. Built with a focus on visual excellence, resilience, and developer productivity.
 
-![AppForge Hero](https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&q=80&w=1200)
+## 🖼️ Application Showcase
+
+### Premium Hero Interface
+![AppForge Hero](docs/screenshots/hero.png)
+*Our stunning, dark-mode landing page designed to convert and impress.*
+
+### Interactive Live Playground
+![AppForge Playground](docs/screenshots/playground.png)
+*The real-time forge environment featuring Monaco Editor and instant UI synchronization.*
 
 ## ✨ Stand-Out Features
 
