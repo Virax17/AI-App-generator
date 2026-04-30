@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useState } from "react";
 import FormRenderer from "../../components/FormRenderer";
@@ -77,7 +77,7 @@ export default function PlaygroundClient() {
       navigator.clipboard.writeText(url);
       setShareStatus("URL copied! ✓");
       setTimeout(() => setShareStatus(null), 3000);
-    } catch (e) {
+    } catch {
       setShareStatus("Failed to copy URL");
     }
   };

@@ -1,10 +1,10 @@
 "use client";
 
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { useMemo, useState, useRef } from "react";
 import { post } from "../lib/api";
 import { healConfig } from "../lib/configHealer";
-import type { ApiResponse, App, AppConfig, Field } from "../types";
+import type { ApiResponse, App } from "../types";
 
 type CreateAppModalProps = {
   isOpen: boolean;

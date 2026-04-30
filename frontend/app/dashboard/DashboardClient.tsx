@@ -143,7 +143,7 @@ const DashboardClient = () => {
             <p className="text-5xl mb-4">🚀</p>
             <h2 className="text-xl font-semibold text-white">No apps yet</h2>
             <p className="mt-2 text-sm text-slate-400 max-w-sm mx-auto">
-              Create your first app by pasting a JSON config. It'll generate a fully working UI instantly.
+              Create your first app by pasting a JSON config. It&apos;ll generate a fully working UI instantly.
             </p>
             <button
               onClick={() => setShowModal(true)}

@@ -71,7 +71,6 @@ export function healConfig(raw: unknown): HealResult {
   }
 
   const healedFields: Field[] = [];
-  let unknownTypeCount = 0;
   let missingLabelCount = 0;
   let coercedRequiredCount = 0;
 
